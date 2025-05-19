@@ -403,7 +403,7 @@
 }
 
 .btn-order {
-    background-color: var(--teal);
+    background-color: #4e0f0d;
     color: white;
     border: none;
     border-radius: 25px;
@@ -419,7 +419,7 @@
 }
 
 .bg-popular {
-    background-color: var(--amber) !important;
+    background-color: #eb9215;
     color: white;
 }
 
