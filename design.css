@@ -59,17 +59,21 @@
     color: #eb9215;
 }
 
+.splash-container {
+    overflow: hidden;
+}
+
 .splash-img-size {
     height: 588px;
     width: 740px;
 }
 
-.splash-font {
+.text-font {
     font-family: "Bebas Neue", sans-serif;
 }
 
 .splash-text-size {
-    font-size: 60px;
+    font-size: 70px;
 }
 
 .splash-btn1-color {
