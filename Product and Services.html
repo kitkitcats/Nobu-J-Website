@@ -10,46 +10,42 @@
     <link rel="stylesheet" href="design.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/logo.JPG" alt="Nobu J Restobar" height="40" class="d-inline-block align-top">
+    <nav class="navbar navbar-expand-lg navbar-bg-color sticky-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between px-4" id="navbarNav">
+            <a href="index.html"><img src="images/nobu_j_logo.JPG" class="navbar-img-size rounded-circle d-none d-lg-block"></a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link navbar-text-color" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-text-color" href="Product and Services.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-text-color" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-active-color" href="testimonials.html">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-text-color" href="#">Personnel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-text-color" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <a class="d-flex align-items-center navbar-text-color gap-3" href="#">
+              <p>Locate us</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+              </svg>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="personnel.html">Personnel</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link active dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown">
-                            Products & Services
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#silog-meals">Silog Meals</a></li>
-                            <li><a class="dropdown-item" href="#desserts">Desserts</a></li>
-                            <li><a class="dropdown-item" href="#short-orders">Short Orders</a></li>
-                            <li><a class="dropdown-item" href="#pulutan">Pulutan</a></li>
-                            <li><a class="dropdown-item" href="#beverages">Beverages</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="testimonials.html">Testimonials</a>
-                    </li>
-                </ul>
-            </div>
+          </div>
         </div>
-    </nav>
+      </nav>
 
     <!-- Hero Section -->
     <section class="hero-section">
