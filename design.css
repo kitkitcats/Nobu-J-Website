@@ -125,3 +125,11 @@
     max-width: 24rem;
   }
 }
+
+.menu-link {
+    color: #4e0f0d;
+}
+
+.menu-link:hover {
+    color: #eb9215;
+}
