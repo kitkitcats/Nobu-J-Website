@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nobu J Restobar - Products & Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.JPG" alt="Nobu J Restobar" height="40" class="d-inline-block align-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="personnel.html">Personnel</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown">
+                            Products & Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#silog-meals">Silog Meals</a></li>
+                            <li><a class="dropdown-item" href="#desserts">Desserts</a></li>
+                            <li><a class="dropdown-item" href="#short-orders">Short Orders</a></li>
+                            <li><a class="dropdown-item" href="#pulutan">Pulutan</a></li>
+                            <li><a class="dropdown-item" href="#beverages">Beverages</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonials.html">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="display-3 text-white animate__animated animate__fadeInDown">Our Delicious Offerings</h1>
+                    <p class="lead text-white animate__animated animate__fadeInUp">Experience authentic Filipino flavors with a modern twist</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Navigation -->
+    <nav class="category-nav sticky-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#silog-meals">Silog Meals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#desserts">Desserts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#short-orders">Short Orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pulutan">Pulutan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#beverages">Beverages</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Video Section -->
+    <section class="video-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                                title="Nobu J Restobar Experience" 
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section py-5">
+        <div class="container">
+            <!-- Silog Meals -->
+            <div id="silog-meals" class="menu-category mb-5 animate__animated animate__fadeIn">
+                <h2 class="category-title">🍽 SILOG MEALS 🍽</h2>
+                <div class="row g-4">
+                    <!-- Tapsilog -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/tapsilog.jpg" class="card-img-top" alt="Tapsilog">
+                                <div class="price-badge">₱120</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Tapsilog</h5>
+                                <p class="card-text">Marinated beef tapa, garlic fried rice, and sunny-side-up egg. A Filipino breakfast classic that's good any time of day.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                    <span class="badge bg-popular">Bestseller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tocilog -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/tocilog.jpg" class="card-img-top" alt="Tocilog">
+                                <div class="price-badge">₱110</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Tocilog</h5>
+                                <p class="card-text">Sweet cured pork tocino, garlic fried rice, and egg. A perfect balance of sweet and savory flavors.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Bangsilog -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/bangsilog.webp" class="card-img-top" alt="Bangsilog">
+                                <div class="price-badge">₱130</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Bangsilog</h5>
+                                <p class="card-text">Fried milkfish (bangus), garlic rice, and egg. A healthy option with our signature crispy bangus.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button class="btn btn-view-more" data-bs-toggle="collapse" data-bs-target="#moreSilog">
+                        View More Silog Meals <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+
+                <div class="collapse" id="moreSilog">
+                    <div class="row g-4 mt-3">
+                        <!-- Chixsilog -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100 menu-item">
+                                <div class="card-img-container">
+                                    <img src="images/chixsilog.webp" class="card-img-top" alt="Chixsilog">
+                                    <div class="price-badge">₱110</div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Chixsilog</h5>
+                                    <p class="card-text">Juicy fried chicken with garlic rice and egg. A simple yet satisfying meal.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <button class="btn btn-order">Add to Order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Hotsilog -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100 menu-item">
+                                <div class="card-img-container">
+                                    <img src="images/hotsilog.jpg" class="card-img-top" alt="Hotsilog">
+                                    <div class="price-badge">₱100</div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Hotsilog</h5>
+                                    <p class="card-text">Hotdog with garlic rice and egg. A childhood favorite that never gets old.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <button class="btn btn-order">Add to Order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Cornsilog -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card h-100 menu-item">
+                                <div class="card-img-container">
+                                    <img src="images/cornsilog.jpg" class="card-img-top" alt="Cornsilog">
+                                    <div class="price-badge">₱110</div>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Cornsilog</h5>
+                                    <p class="card-text">Corned beef with garlic rice and egg. A hearty meal that's full of flavor.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <button class="btn btn-order">Add to Order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Desserts -->
+            <div id="desserts" class="menu-category mb-5 animate__animated animate__fadeIn">
+                <h2 class="category-title">🍦 DESSERTS 🍦</h2>
+                <div class="row g-4">
+                    <!-- Halo-Halo -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/halohalo.JPG" class="card-img-top" alt="Halo-Halo">
+                                <div class="price-badge">₱35/₱55</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Halo-Halo</h5>
+                                <p class="card-text">A classic Filipino dessert with mixed sweet ingredients, crushed ice, and evaporated milk.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                    <span class="badge bg-popular">Bestseller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Leche Flan -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/lecheflan.jpg" class="card-img-top" alt="Leche Flan">
+                                <div class="price-badge">₱60</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Leche Flan</h5>
+                                <p class="card-text">Rich and creamy caramel custard made with egg yolks and condensed milk.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Mais Con Yelo -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/mais.jpg" class="card-img-top" alt="Mais Con Yelo">
+                                <div class="price-badge">₱35/₱55</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Mais Con Yelo</h5>
+                                <p class="card-text">Sweet corn with shaved ice, milk, and sugar - a refreshing summer treat.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Short Orders -->
+            <div id="short-orders" class="menu-category mb-5 animate__animated animate__fadeIn">
+                <h2 class="category-title">🍝 SHORT ORDERS 🍝</h2>
+                <div class="row g-4">
+                    <!-- Pancit Bihon -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/pancit.JPG" class="card-img-top" alt="Pancit Bihon">
+                                <div class="price-badge">₱150</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Pancit Bihon</h5>
+                                <p class="card-text">Stir-fried rice noodles with vegetables, meat, and soy sauce. Good for 2-3 persons.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Carbonara -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/carbonara.jpg"card-img-top" alt="Carbonara">
+                                <div class="price-badge">₱180</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Carbonara</h5>
+                                <p class="card-text">Creamy pasta with bacon, mushrooms, and parmesan cheese. Good for 2 persons.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Chicken Wings -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/cw.JPG" class="card-img-top" alt="Chicken Wings">
+                                <div class="price-badge">₱220</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken Wings</h5>
+                                <p class="card-text">Crispy fried chicken wings available in BBQ, Buttered Garlic, or Buffalo flavor. 6 pieces per order.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                    <span class="badge bg-popular">Bestseller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Pulutan -->
+            <div id="pulutan" class="menu-category mb-5 animate__animated animate__fadeIn">
+                <h2 class="category-title">🍻 PULUTAN 🍻</h2>
+                <div class="row g-4">
+                    <!-- Pork Sisig -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/sisig.JPG" class="card-img-top" alt="Pork Sisig">
+                                <div class="price-badge">₱200</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Pork Sisig</h5>
+                                <p class="card-text">Sizzling chopped pork parts with onions, chili peppers, and calamansi. Best with beer!</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                    <span class="badge bg-popular">Bestseller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Calamares -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/calamares.webp" class="card-img-top" alt="Calamares">
+                                <div class="price-badge">₱180</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Calamares</h5>
+                                <p class="card-text">Crispy fried squid rings served with garlic mayo dip. Perfect beer match.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Nachos Overload -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/nachos.jpg" class="card-img-top" alt="Nachos Overload">
+                                <div class="price-badge">₱250</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Nachos Overload</h5>
+                                <p class="card-text">Tortilla chips topped with melted cheese, ground beef, jalapeños, salsa, and sour cream.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Beverages -->
+            <div id="beverages" class="menu-category animate__animated animate__fadeIn">
+                <h2 class="category-title">🍸 BEVERAGES 🍸</h2>
+                <div class="row g-4">
+                    <!-- Softdrinks -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/coke.webp" class="card-img-top" alt="Softdrinks">
+                                <div class="price-badge">₱35</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Softdrinks</h5>
+                                <p class="card-text">Coke Mismo, Sprite</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Mineral Water -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/water.webp" class="card-img-top" alt="Mineral Water">
+                                <div class="price-badge">₱25</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Mineral Water</h5>
+                                <p class="card-text">500ml bottled water</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Beer -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/beer.jpg" class="card-img-top" alt="Beer">
+                                <div class="price-badge">₱70</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Beer</h5>
+                                <p class="card-text">Red Horse, San Miguel Light</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                    <span class="badge bg-popular">Bestseller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tanduay Ice -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card h-100 menu-item">
+                            <div class="card-img-container">
+                                <img src="images/tanduay.png" class="card-img-top" alt="Tanduay Ice">
+                                <div class="price-badge">₱60</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Tanduay Ice</h5>
+                                <p class="card-text">Flavored alcoholic drink</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <button class="btn btn-order">Add to Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button id="backToTop" class="btn btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5>Nobu J Restobar</h5>
+                    <p>Your favorite neighborhood restobar serving delicious Filipino comfort food and drinks with a modern twist.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/nobuj70"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products-services.html">Menu</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Contact Info</h5>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 3213 Kalayaan Ave. Brgy.Pinagkaisahan, Makati City </li>
+                        <li><i class="fas fa-phone"></i> 09054545070</li>
+                        <li><i class="fas fa-landline"></i> (02)790-546-26</li>
+                        <li><i class="fas fa-envelope"></i> info@nobujrestobar.com</li>
+                        <li><i class="fas fa-clock"></i> Open 24 hours</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="mt-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2023 Nobu J Restobar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
