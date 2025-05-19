@@ -659,3 +659,11 @@
 .nav-link-menu:hover:after, .nav-link-menu.active:after {
     width: 100%;
 }
+
+.menu-link {
+    color: #4e0f0d;
+}
+
+.menu-link:hover {
+    color: #eb9215;
+}
