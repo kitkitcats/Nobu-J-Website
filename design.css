@@ -1,3 +1,97 @@
 /* USE THIS CSS FILE FOR ALL PAGES */
 /* u can create your own css file but make it cohesive with the rest of the design here */
 
+.navbar-img-size {
+    height: 80px;
+    width: 80px;
+}
+
+.navbar-bg-color {
+    background-color: #4e0f0d;
+}
+
+.navbar-text-color {
+    text-decoration: none;
+    color: #fbeec2;
+}
+
+.navbar-active-color {
+    color: #eb9215;
+}
+
+.navbar-active-color:hover {
+    color: #eb9215;
+}
+
+.navbar-text-color:hover {
+    color: #eb9215;
+}
+
+.footer-bg-color {
+    background-color: #4e0f0d;
+}
+
+.footer-txt-color {
+    color: white;
+}
+
+.primary-text-color {
+    color: #4e0f0d;
+}
+
+.secondary-text-color {
+    color: #eb9215;
+}
+
+.tertiary-text-color {
+    color: #fbeec2;
+}
+
+.a-text-deco {
+    text-decoration: none;
+}
+
+.a-text-color {
+    color: #4e0f0d;
+}
+
+.a-text-color:hover {
+    color: #eb9215;
+}
+
+.splash-img-size {
+    height: 588px;
+    width: 740px;
+}
+
+.splash-font {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.splash-text-size {
+    font-size: 60px;
+}
+
+.splash-btn1-color {
+    background-color: #4e0f0d;
+    border-color: #4e0f0d;
+    color: white;
+}
+
+.splash-btn1-color:hover {
+    background-color: #eb9215;
+}
+
+.splash-btn2-color {
+    color: #4e0f0d;
+    border-color: #4e0f0d;
+}
+
+.splash-btn2-color:hover {
+    background-color: #eb9215;
+}
+
+.best-seller-img {
+    height: 250px;
+    object-fit: cover;
+}
